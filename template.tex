@@ -1,0 +1,218 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.1 (8/1/17)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by 
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[letterpaper]{twentysecondcv} % a4paper for A4
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+
+\cvname{M V Ramireddy} % Your name
+\cvjobtitle{Data Scientist \& Development Engineer} % Job title/career
+
+%\cvdate{29 September 1994} % Date of birth
+\cvaddress{ramdsiitm@gmail.com} % Short address/location, use \newline if more than 1 line is required
+\cvnumberphone{+91 9940109021}  % Phone number
+\cvsite{\href{https://www.linkedin.com/in/mvrr/}{linkedin.com/in/mvrr}} % Personal address
+\cvdate{Nilampathinjamughal\newline Rajagiri,Kochi }
+%----------------------------------------------------------------------------------------
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	 SKILLS
+%----------------------------------------------------------------------------------------
+
+% Skill bar section, each skill must have a value between 0 an 6 (float)
+\skills{
+Python(Advanced), C++, Julia, SQL, Shell Script
+\newline  Pytorch, Tensorflow, Keras, Scikit-Learn, Spacy, Seaborn, Pandas, Numpy \\
+\newline  HTML, Flask, FastAPI \\
+\newline  Scrapy, Xpath, CSS, Regex \\
+\newline   boto3, AWS \\
+\newline   Docker, Git, Kubernetes
+\newline PostGreSQL, MongoDB
+}
+
+%-------------------------------------------------------------
+%	 Education
+%-----------------------------------------------------------------
+\Education{\textbf {M.tech | IIT MADRAS} \newline Aerospace Engineering
+
+\textbf {B.tech | PVPSIT } \newline Aeronautical Engineering 
+
+} % To have no Education section, just remove all the text and leave \Education{}
+
+\achieve{  GATE AE 2015 AIR 38.
+        \newline \newline Participated in final round IIT Madras E-cell 2017 Startup competition.
+        \newline \newline AP PGESET 2015, State Rank 4.
+        }
+
+\curricular{
+   Attending Meetups
+   \newline Tech talks
+}
+\ExtraCurricular{
+   Reading books
+   \newline Listening Music and Podcasts
+   \newline Playing shuttle
+}
+%------------------------------------------------
+
+% Skill text section, each skill must have a value between 0 an 6
+
+
+%----------------------------------------------------------------------------------------
+
+\makeprofile % Print the sidebar
+
+%----------------------------------------------------------------------------------------
+%	 INTERESTS
+%----------------------------------------------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+%	 EDUCATION
+%----------------------------------------------------------------------------------------
+\section{Summary}
+
+I've 2.6+ years of experience as Data scientist and Development Engineer with a demonstrated history of working in AI and Software Development Industry, right from the data extraction till the final data product or actionable insights. A dedicated and determined person who can adapt to any environment. I possess good problem-solving skills, good understanding on model validation techniques, including \textbf{Deep Learning} (RNN, CNN, LSTM) and other classical ML models (SVM, KNN, NB etc). \vspace{2mm}
+
+\section{Experience}\\
+    \begin{twenty} % Environment for a list with descriptions
+        \twentyitem
+            	{Oct'18 -}
+        		{Present}
+                {Machine Learning Engineer}
+                {\href{https://www.cognicor.com/}{Cognicor Technologies,Kochi}}
+                {Cognicor is an AI-Based platform which offers cognitive virtual  assistant solutions.}
+                {
+                \textbf{Project 1:} Intent Classification and Named Entity Recognition
+                    \begin{itemize}
+                        \item Introduced Information handling with Entities, which reduced number of intent classes by ~80\%.
+                        \item Intent misclassified intents was reduced dramatically. Model performance increased upto 95\% above.
+                        \item Used ML, Rule based and Regex Pattern matching NER methods to handle every situation.
+                        \item Extracted entities were used to maintain the context and for profile based response filtering.
+                        %\item General Utterance patterns for each do-main by extracting Entities(NER) using Chaito.
+                        \item Used modules and framework: Python, Pytorch, BERT, Transformers, FB Duckling module, Docker, Flask.
+                    \end{itemize}
+                \textbf{Project 2:} Hybrid Recommendation Engine 
+                    \begin{itemize}
+                        \item Recommendation engine is used for train on both Content-based and Collaboration based data.
+                        \item Cold Start issue was solved by using Popularity based recommendation.
+                        \item Used modules and framework: Python, Turicreate, PySpark, Docker, Flask.
+                    \end{itemize}
+                \textbf{Project 3:} Question-Answer Classification
+                    \begin{itemize}
+                        \item Given a text sentence, model can classify is it a part of Question or Answer.
+                        \item Model is sub module of document extraction module.
+                        \item Used modules and framework: Python, PyTorch, BERT, Transformers, Docker, FastAPI.
+                    \end{itemize}
+                \textbf{Project 4:} Topic relation classification
+                    \begin{itemize}
+                        \item Module extract pos tagging using ELMO pre-trained module. 
+                        \item Rule engine resolves the relation.
+                        \item Used modules and framework: Python, PyTorch, ELMO, Docker, FastAPI.
+                    \end{itemize}
+                \textbf{Project 5:} NLP Search bar for Analytics Dashboard
+                    \begin{itemize}
+                        \item Tool is helpful for browsing Analytics Dashboard using NLP Query.
+                        \item Used Intent Classification model and Entity Extraction Module.
+                        \item Used modules and framework: Python, BERT, Tensorflow, Docker, Flask.
+                    \end{itemize}
+                \textbf{Project 6:} Information Extraction from Images using RCNNs
+                    \begin{itemize}
+                        \item Developed models to detect Table and Procedural Elements.
+                        \item Gave POC using streamlit App.
+                        \item Used modules and framework: Python, Streamlit, ResNet, MobileNet, InceptionV2, RCNN, DETR, TensorFlow, TensorBox, Docker, Flask.
+                    \end{itemize}
+            }
+    \end{twenty}
+    \begin{twenty}
+        \twentyitem
+            	{Jun -}
+        		{Oct'18}
+                {ML Research Trainee}
+                {\href{https://www.cognicor.com/}{Cognicor Technologies,Kochi}}
+                {}
+                {
+                \textbf{Project:} Contextual Word Embeddings
+                    \begin{itemize}
+                        \item Developed a model to embed Contextual Vectors to solve Word Sense Disambiguation using ELMO.
+                        \item Mined data from Wikipedia, Microsoft website and other sources.  \item Used modules and framework: PyTorch, Scrapy, Beautiful soup, PRAW, Wikiextractor, PostgreSQL and AllenNLP.
+                    \end{itemize}
+                }
+    \end{twenty} 
+    \begin{twenty}
+        \twentyitem
+           		{Apr' -}
+        		{Jun'18}
+                {Data Scientist Intern}
+                {\href{https://navrotech.com/}{Navro Technology Solutions, Bangalore}}
+                {Navro Technology Solutions is a startup which provides intelligent solutions to improve drug safety, taking a consumer first approach through our innovative mobile application and social media analysis tool, aim to bridge the gap between regulatory bodies, pharmaceutical companies, healthcare professionals and the consumers.}
+                {
+                \textbf{Project:} ADR or AEFI Classification 
+                
+                \begin{itemize}
+                    \item Developed ADR classification ML models to predict Adverse Drug
+                Reaction (ADR) or Adverse Event Following Immunization (AEFI) from data to provide pharmacovigilance in pharmacy sector.
+                    \item Mined streaming data from Social Network websites(Twitter) and building databases for model training by using  and .
+                    \item Used modules and framework: Scrapy, Tweepy, PostgreSQL, PRAW,  and Sklearn, Treebased models.
+                \end{itemize}
+                }
+    \end{twenty}
+    \begin{twenty}
+        \twentyitem
+           		{Apr'17 -}
+        		{Apr'18}
+                {Co-Founder}
+                {\href{}{VilBaz Services, IIT Madras}}
+                {}
+                {
+                \begin{itemize}
+                \item Involved in entire Business model development and MVP validation in Agro based products by four villages through IITs village program. Succeeded in replacing middle men role through our service by benefiting both parties.
+            \end{itemize} }
+        	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+    \end{twenty}
+% ------------- Research Section --------------------
+\section{Research}\\
+    \begin{twenty}
+    	\twentyitem
+        	{Apr'17 -}
+    		{May'18}
+            {Master thesis Project}
+            {\href{https://www.iitm.ac.in/}{IIT MADRAS}}
+            {}
+            {
+           	\textbf{Thesis}:  A study of planetary boundary layer for UAV applications using Machine Learning
+            {\begin{itemize}
+            \item Data cleaning and Visualization using \textbf{Pandas} and \textbf{Matplotlib.}
+            \item Estimating planet boundary layer Height and Velocity profile by using \textbf{Linear Regression} (Scikit-Learn).
+    		\end{itemize}}
+            }
+    \end{twenty}
+% ------------- Research Section --------------------    
+\section{Certifications}
+    \begin{itemize}
+        \item \href{https://www.datacamp.com/statement-of-accomplishment/track/fe7ff221d988f6f80654feb00c9e63bf496182ab}{Data Scientist with Python(Data Camp)}
+    \end{itemize}
+\end{document}
